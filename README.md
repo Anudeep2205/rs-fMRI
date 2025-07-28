@@ -1,3 +1,4 @@
 # rs-fMRI
 Functional and Effective Connectivity Scripts - Appendix
+
 FC.ipynb -  This script computes and visualizes functional connectivity (FC) matrices for merged default mode network (DMN) and basal forebrain (BF) regions in mice, based on denoised ROI time series data. The code loads all mice’s time series from a JSON file, checks that ROI labeling is consistent, and then aggregates pre-defined anatomical groups by averaging the time series of their constituent ROIs. For each mouse, it calculates the correlation matrix (FC) across the merged regions. The resulting FC matrices are saved as NumPy arrays, and the average FC matrix across all mice is plotted as a heatmap, with regions labeled for easy interpretation. This process enables standardized, group-level connectivity analysis for targeted brain networks.
